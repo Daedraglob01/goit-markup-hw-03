@@ -1,0 +1,354 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:"Roboto", sans-serif;
+    color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    background-color: #ffffff;
+}
+
+main {
+    flex-grow: 1;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin:0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.header-border {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-border > .container {
+    display:flex;
+}
+
+.logo-header {
+    display: inline;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-right: 76px;
+    padding: 0;
+}
+
+.logo-studio-header {
+    color:#2E2F42;
+    
+}
+
+.logo-studio-footer {
+    display: inline-block;
+    color:#F4F4FD;
+}
+
+.header-address {
+    font-style: normal;
+    display: flex;
+    padding: 24px 0;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-contacts {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-contacts:hover,
+.header-contacts:focus {
+    color:#404BBF;
+}
+
+.header-nav {
+    display: inline-block;
+    color:#2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    padding: 24px 0;
+}
+
+.header-nav:hover,
+.header-nav:focus {
+    color: #404BBF;
+}
+
+.container-logo-nav-ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+    margin-right: auto;
+}
+
+.container-logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-page-descr {
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+    padding-bottom: 48px;
+    max-width: 496px
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.our-team-head {
+    color:#2E2F42;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.effective-solution {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.order-button {
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    background:#4D5AE5;
+    border:none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background: #404BBF;
+    
+}
+
+.cont-benefits-list {
+    display:flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.our-team {
+    background: #F4F4FD;
+}
+
+
+.visually-hidden {
+    display: none;
+}
+
+.benefits-headers {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+}
+
+.benefits-listitem {
+    width: calc((100% - 72px) / 4);
+}
+
+.benefits-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.our-team-list {
+    background-color: #FFFFFF;
+    height: 380px;
+    border-radius: 0px 0px 4px 4px;
+    background:#FFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.person-descr {
+    padding: 32px 0;
+}
+
+.cont-team-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.team-persons {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.team-persons-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+.cont-portfolio-item {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 24px;
+    row-gap: 48px;
+    
+}
+
+.cont-portfolio-item li {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background: #fff;
+    width: 360px;
+    height: 420px;
+}
+
+.cont-portf-bord {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding: 32px 16px;
+    text-align: left;
+}
+
+.portfolio-header {
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.cont-portfolio-item img {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.portfolio-item-descr {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer-style {
+    background: #2E2F42;
+    padding: 100px 0;
+}
+
+.footer-header {
+    display: inline-block;
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    color:#F4F4FD;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    max-width: 264px;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
